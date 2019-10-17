@@ -1,0 +1,50 @@
+/** =====================================================================================
+ *  Defines the typographic baseline.
+ *  We define every size in pixels, the underlying system converts the
+ *  respective units to the responsive REM value.
+ ===================================================================================== */
+
+/**
+ * Our base font-size and line-height
+ */
+$base-font-size: 14 !default;
+$base-line-height: 18 !default;
+$line-height-ratio: $base-line-height/$base-font-size !default;
+
+$font-sizes: (
+        x-xs: 10,
+        xs: 11,
+        x-sm: 12,
+        sm: 13,
+        base: $base-font-size,
+        xs-md: 15,
+        x-md: 16,
+        sm-md: 18,
+        md: 20,
+        lg-md: 21,
+        xl-md: 24,
+        xxl-md: 25,
+        exl-md: 27,
+        xs-lg: 32,
+        x-lg: 37,
+        sm-lg: 38,
+        lg: 42,
+        xl-lg: 44,
+        exl-lg: 52,        
+);
+
+/**
+ *	Here we assign short names for the font families
+ */
+// $font-poppins: 'Poppins', sans-serif;
+// $font-poppins-black: 'poppins_black', sans-serif;
+
+// $_font-system: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Helvetica, Arial, sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol";
+
+// $font-families: (
+//         base: $font-poppins,
+//         black:$font-poppins-black,
+//   // Fallback font
+//         system: $_font-system
+// );
+

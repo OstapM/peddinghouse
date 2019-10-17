@@ -1,0 +1,23 @@
+button {
+  -webkit-appearance: none;
+  -moz-appearance: none;
+  appearance: none;
+}
+
+.c-primary-button {
+    display: inline-block;
+    padding: 15px;
+    color: #fff;
+    @include font(x-sm, 16, 400);
+    letter-spacing: 0.3px;
+    text-align: center;
+}
+
+.c-primary-button--color {
+    @extend .bg-pattern-orange;
+    border-bottom: 3px solid palette(secondary);
+}
+
+.c-primary-button--dark {
+    @extend .bg-pattern-dark;
+}

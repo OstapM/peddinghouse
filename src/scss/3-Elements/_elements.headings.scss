@@ -1,0 +1,28 @@
+h1 {
+	@include font(xs-lg, 38, 400);
+	@include mq($min: 568){
+		@include font(x-lg, 49, 400);
+	}
+}
+
+h2 {
+	@include font(xs-lg, 38, 400);
+	@include mq($min: 568){
+		@include font(exl-md, 37, 400);
+	}
+}
+
+h3 {
+	@include font(xs-lg, 38, 400);
+	@include mq($min: 568){
+		@include font(xxl-md, 35, 400);
+	}
+}
+
+h4 {
+	@include font(xs-lg, 38, 400);
+	@include mq($min: 568){
+		@include font(md, 25, 400);
+	}
+}
+
