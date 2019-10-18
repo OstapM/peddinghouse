@@ -1,0 +1,81 @@
+.o-banner {
+    position: relative;
+    overflow: hidden;
+}
+
+.o-banner__wrapper {
+    display: flex;
+    align-items: flex-end;
+    height: 480px;
+    padding: 30px 0;
+    @media (min-width: 768px) {
+        height: 700px;
+    }
+}
+
+.o-banner__img {
+    width: auto;
+    height: auto;
+    min-width: 100%;
+    min-height: 100%;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%,-50%);
+}
+
+.o-banner__content {
+    position: relative;
+    text-align: center;
+    z-index: 1;
+}
+
+.o-banner__content-img {
+    width: 100%;
+    @media (min-width: 768px) {
+        margin-bottom: 25px;
+    }
+}
+
+.o-banner__btn-wrap {
+    display: flex;
+    justify-content: center;
+    padding: 25px 0;
+    .c-button--primary,
+    .c-button--secondary {
+        margin: 0 10px;
+        min-width: 215px;
+        @media (min-width: 768) {
+            min-width: 237px;
+        }
+    }
+}
+
+.o-banner__text {
+    padding-top: 40px;
+    @media (min-width: 768) {
+        padding-top: 25px;
+    }
+}
+
+.o-banner__description {
+    @include font(xsm-md, 21, 300);
+    margin-bottom: 3px;
+    @media (min-width: 768) {
+        @include font(x-md, 23, 300);
+        margin-bottom: 12px;
+    }
+}
+
+.o-banner__scroll-text {
+    @include font(sm, 18, 400);
+    margin-bottom: 12px;
+}
+
+.o-banner__scroll-btn {
+    display: inline-block;
+    width: 28px;
+    height: 44px;
+    background-image: url("../../img/icons/scroll.svg");
+    background-size: 100% 100%;
+}

@@ -1,9 +1,9 @@
-$_color-primary-300: #4d4c4d !default;
-$_color-primary-200: #828182 !default;
+$_color-primary-300: #f47821 !default;
 
-$_color-secondary-300: #f47821 !default;
+$_color-secondary-300: #4d4c4d !default;
+$_color-secondary-200: #828182 !default;
 
-$_color-text-300: $_color-primary-300 !default;
+$_color-text-300: $_color-secondary-300 !default;
 
 $_color-grey-200: #f6f6f6 !default;
 $_color-grey-300: #dcdcdc !default;
@@ -15,9 +15,9 @@ $_color-yellow-300: #ffe500 !default;
 $palettes: (
         'primary': (
                 base: $_color-primary-300,
-                200: $_color-primary-200,
         ),
         'secondary': (
+                200: $_color-secondary-200,
                 base: $_color-secondary-300,
         ),
         'text': (

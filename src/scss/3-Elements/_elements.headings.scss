@@ -1,28 +1,35 @@
 h1 {
 	@include font(xs-lg, 38, 400);
-	@include mq($min: 568){
+	@media (min-width: 768px){
 		@include font(x-lg, 49, 400);
 	}
 }
 
 h2 {
 	@include font(xs-lg, 38, 400);
-	@include mq($min: 568){
+	@media (min-width: 768px){
 		@include font(exl-md, 37, 400);
 	}
 }
 
 h3 {
 	@include font(xs-lg, 38, 400);
-	@include mq($min: 568){
+	@media (min-width: 768px){
 		@include font(xxl-md, 35, 400);
 	}
 }
 
 h4 {
 	@include font(xs-lg, 38, 400);
-	@include mq($min: 568){
+	@media (min-width: 768px){
 		@include font(md, 25, 400);
+	}
+}
+
+h5 {
+	@include font(xs-lg, 38, 400);
+	@media (min-width: 768px){
+		@include font(xsm-md, 23, 400);
 	}
 }
 
