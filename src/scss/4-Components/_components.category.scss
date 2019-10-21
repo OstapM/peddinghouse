@@ -1,0 +1,40 @@
+.c-category__wrap {
+    width: 227px;
+    margin: auto;
+    padding: 12px 0;
+    box-sizing: content-box;
+    @media (min-width: 768px) {
+        width: 100%;
+        max-width: 256px;
+    }
+}
+
+.c-category__block {
+    position: relative;
+}
+
+.c-category__description {
+    display: none;
+    @media (min-width: 768px) {
+        display: inline-block;
+        color: palette(color-grey);
+        margin-top: 18px;
+    }
+    p {
+        margin-bottom: 0;
+    }
+}
+
+.c-category__value {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    @include font(base, 19, 300);
+    letter-spacing: 0.7px;
+    span {
+        display: block;
+        font-size: 46px;
+        font-weight: 400;
+    }
+}

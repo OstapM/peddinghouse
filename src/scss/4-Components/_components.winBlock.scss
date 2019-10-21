@@ -1,0 +1,71 @@
+.c-win-block {
+    position: relative;
+    transform: translateX(-5px);
+    @media (min-width: 768px) {
+        transform: translateX(0);
+    }
+}
+
+.c-win-block__img {
+    width: 100%;
+    max-width: 345px;
+    margin: auto;
+    @media (min-width: 768px) {
+        max-width: 100%;
+    }
+}
+
+.c-win-block__text {
+    position: absolute;
+    top: 50%;
+    left: calc(50% - 5px);
+    transform: translate(-50%, -50%);
+    text-transform: uppercase;
+}
+
+.c-win-block__text--sm {
+    @include font(x-sm, 15, 400);
+    letter-spacing: 0.6px;
+    margin-bottom: 13px;
+    @media (min-width: 768px) {
+        @include font(xs-md, 20, 400);
+        letter-spacing: 0.75px;
+    }
+}
+
+.c-win-block__text__message {
+    padding: 9px 0 0 40px;
+    width: 230px;
+    height: 78px;
+    background-image: url("../../img/message.svg");
+    background-size: 100% 100%;
+    @include font(xxs-lg, 35, 700);
+    letter-spacing: 1.45px;
+    text-align: left;
+    @media (min-width: 768px) {
+        padding: 10px 0 0 30px;
+        width: 279px;
+        height: 100px;
+        @include font(lg, 50, 700);
+        letter-spacing: 2.1px;
+    }
+}
+
+.c-win-block__text--md {
+    margin: -5px 0 0;
+    letter-spacing: 0.7px;
+    @media (min-width: 768px) {
+        @include font(sm-md, 18, 400);
+        letter-spacing: 0.9px;
+    }
+}
+
+.c-win-block__text--lg {
+    letter-spacing: 1.5px;
+    font-size: 30px;
+    font-weight: 700;
+    @media (min-width: 768px) {
+        font-size: 40px;
+        letter-spacing: 2px;
+    }
+}

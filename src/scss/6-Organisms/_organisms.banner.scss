@@ -34,8 +34,7 @@
     display: flex;
     justify-content: center;
     padding: 25px 0;
-    .c-button--primary,
-    .c-button--secondary {
+    .c-button {
         margin: 0 10px;
         min-width: 215px;
         @media (min-width: 768) {

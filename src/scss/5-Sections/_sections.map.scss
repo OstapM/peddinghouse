@@ -1,0 +1,12 @@
+.s-map {
+    padding: 44px 0 30px;
+    background-image: url("../../img/map-bg-mob.png");
+    background-size: cover;
+    background-position: center center;
+    text-align: center;
+    @media (min-width: 768px) {
+        padding: 190px 0 200px;
+        background-image: url("../../img/map-bg.png");
+        text-align: left;
+    }
+}

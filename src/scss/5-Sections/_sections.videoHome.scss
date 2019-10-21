@@ -1,0 +1,35 @@
+.s-video-home {
+    padding: 50px 0 0 0;
+    background-image: url("../../img/video-bg.jpg");
+    background-position: center center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    text-align: center;
+    @media (min-width: 768px) {
+        padding: 55px 0 30px;
+    }
+}
+
+.s-video-home__title {
+    letter-spacing: 1.6px;
+    margin-bottom: 35px;
+    @media (min-width: 768px) {
+        margin-bottom: 25px;
+    }
+}
+
+.s-video-home__text{
+    display: none;
+    @media (min-width: 768px) {
+        display: inline-block;
+        margin-bottom: 40px;
+    }
+}
+
+.s-video-home__video-wrapper {
+    margin: 0 -15px;
+    @media (min-width: 768px) {
+        max-width: 1040px;
+        margin: 0 auto;
+    }
+}

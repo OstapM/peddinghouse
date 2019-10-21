@@ -1,0 +1,116 @@
+.s-win {
+    padding: 35px 0 45px;
+    background-image: url("../../img/enter-bg.jpg");
+    background-size: cover;
+    background-position: center center;
+    text-align: center;
+    @media (min-width: 768px) {
+        padding: 65px 0 45px;
+        text-align: left;
+    }
+}
+
+.s-win__wrapper-text {
+    @media (min-width: 768px) {
+        padding-top: 65px;
+        max-width: 430px;
+    }
+}
+
+.s-win__title {
+    font-weight: 500;
+    letter-spacing: 1.6px;
+    margin-bottom: 45px;
+    @media (min-width: 768px) {
+        margin-bottom: 5px;
+        letter-spacing: 1.85px;
+    }
+    span {
+        color: palette(primary);
+        text-transform: uppercase;
+    }
+}
+
+.s-win__sub-title {
+    @media (max-width: 767px) {
+        display: none;
+    }
+    @include font(exl-md, 30, 300);
+    color: palette(color-grey);
+    margin-bottom: 22px;
+}
+
+.s-win__buttons {
+    @media (max-width: 767px) {
+        display: none;
+    }
+    display: flex;
+    flex-direction: column;
+    width: 260px;
+    .c-button {
+        width: 100%;
+        margin: 5px 0;
+    }
+}
+
+.s-win__sub-text-desk {
+    @media (max-width: 767px) {
+        display: none;
+    }
+    text-align: right;
+    @include font(x-sm, 18, 400);
+    a {
+        color: palette(primary);
+        text-decoration: underline;
+    }
+
+}
+
+.s-win__wrapper-img {
+    text-align: center;
+    @media (min-width: 768px) {
+        max-width: 462px;
+        margin: auto;
+    }
+}
+
+.s-win__footer {
+    width: 260px;
+    margin: auto;
+    padding-top: 13px;
+    @media (min-width: 768px) {
+        width: 335px;
+        margin: 0 0 0 auto;
+    }
+    .c-button.c-button--primary {
+        width: 100%;
+        @media (min-width: 768px) {
+            display: none;
+        }
+    }
+}
+
+.s-win__text {
+    margin-bottom: 30px;
+    color: palette(color-grey);
+    @include font(sm-md, 22, 300);
+    letter-spacing: 0.9px;    
+}
+
+.s-win__text {
+    @media (min-width: 768px) {
+        display: none;
+    }
+}
+
+.s-win__sub-text {
+    width: 260px;
+    margin: auto;
+    margin-top: 25px;
+    @include font(x-xs, 13, 400);
+    opacity: 0.2;
+    text-align: center;
+    @media (min-width: 768px) {
+        width: 100%;
+    }
+}
