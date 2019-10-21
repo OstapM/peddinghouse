@@ -14,7 +14,7 @@
 							<div class="c-brand-card__footer dark-grey-bg">
 								<a href="#" class="c-link">www.cives.com</a>
 								<a class="c-button c-button--primary">
-									<span class="c-button--primary__text">Watch Video </span>
+									<span class="c-button--text">Watch Video </span>
 								</a>
 							</div>
 						</div>
@@ -27,7 +27,7 @@
 							<div class="c-brand-card__footer dark-grey-bg">
 								<a href="#" class="c-link c-link__brand">www.lejeunesteel.com</a>
 								<a class="c-button c-button--primary">
-									<span class="c-button--primary__text">Watch Video </span>
+									<span class="c-button--text">Watch Video </span>
 								</a>
 							</div>
 						</div>
@@ -40,7 +40,7 @@
 							<div class="c-brand-card__footer dark-grey-bg">
 								<a href="#" class="c-link c-link__brand">www.coopersteel.com</a>
 								<a class="c-button c-button--primary">
-									<span class="c-button--primary__text">Watch Video </span>
+									<span class="c-button--text">Watch Video </span>
 								</a>
 							</div>
 						</div>
@@ -53,7 +53,7 @@
 							<div class="c-brand-card__footer dark-grey-bg">
 								<a href="#" class="c-link c-link__brand">www.bbironworksinc.com</a>
 								<a class="c-button c-button--primary">
-									<span class="c-button--primary__text">Watch Video </span>
+									<span class="c-button--text">Watch Video </span>
 								</a>
 							</div>
 						</div>
@@ -66,7 +66,7 @@
 							<div class="c-brand-card__footer dark-grey-bg">
 								<a href="#" class="c-link c-link__brand">www.acierselect.com</a>
 								<a class="c-button c-button--primary">
-									<span class="c-button--primary__text">Watch Video </span>
+									<span class="c-button--text">Watch Video </span>
 								</a>
 							</div>
 						</div>
@@ -79,7 +79,7 @@
 							<div class="c-brand-card__footer dark-grey-bg">
 								<a href="#" class="c-link c-link__brand">www.jpwcompanies.com</a>
 								<a class="c-button c-button--primary">
-									<span class="c-button--primary__text">Watch Video </span>
+									<span class="c-button--text">Watch Video </span>
 								</a>
 							</div>
 						</div>
@@ -92,7 +92,7 @@
 							<div class="c-brand-card__footer dark-grey-bg">
 								<a href="#" class="c-link c-link__brand">www.nafcolab.com</a>
 								<a class="c-button c-button--primary">
-									<span class="c-button--primary__text">Watch Video </span>
+									<span class="c-button--text">Watch Video </span>
 								</a>
 							</div>
 						</div>
@@ -105,7 +105,7 @@
 							<div class="c-brand-card__footer dark-grey-bg">
 								<a href="#" class="c-link c-link__brand">www.lemco.ca.za</a>
 								<a class="c-button c-button--primary">
-									<span class="c-button--primary__text">Watch Video </span>
+									<span class="c-button--text">Watch Video </span>
 								</a>
 							</div>
 						</div>
@@ -118,7 +118,7 @@
 							<div class="c-brand-card__footer dark-grey-bg">
 								<a href="#" class="c-link c-link__brand">www.steelincga.com</a>
 								<a class="c-button c-button--primary">
-									<span class="c-button--primary__text">Watch Video </span>
+									<span class="c-button--text">Watch Video </span>
 								</a>
 							</div>
 						</div>
