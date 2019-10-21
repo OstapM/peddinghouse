@@ -16,8 +16,8 @@ button {
 }
 
 .c-button--primary {
-    background-image: url("../../img/orange-pattern.png");
-    span {
+    background-image: url("../../img/dark-pattern.png");
+    .c-button--primary__text {
         display: inline-block;
         position: relative;
         transition: all ease 0.3s;
@@ -46,11 +46,13 @@ button {
         transform: scaleX(0);
         transition: all ease 0.3s;
     }
+    .c-product-card:hover &,
     &:hover {
+        background-image: url("../../img/orange-pattern.png");
         &:after {
             transform: scaleX(1);
         }
-        span {
+        .c-button--primary__text {
             transform: translateX(-5px);
             &:after {
                 transform: translate(15px, -50%);
@@ -58,8 +60,4 @@ button {
             } 
         }
     }
-}
-
-.c-button--secondary {
-    background-image: url("../../img/dark-pattern.png");
 }
