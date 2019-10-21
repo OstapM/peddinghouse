@@ -1,0 +1,7 @@
+.s-brand-cards {
+    padding: 30px 0;
+    background-color: palette(color-grey); 
+    @media (min-width: 768px) {
+        padding: 50px 0;
+    } 
+}
