@@ -6,7 +6,6 @@
 	<main id="main" role="main" tabindex="-1">
 		<section class="o-banner o-banner--home">
 			<div class="o-banner__wrapper">
-				<img src="img/hero-home.png" alt="" class="o-banner__img">
 				<div class="container">
 					<div class="row justify-content-center">
 						<div class="col-xl-10">
