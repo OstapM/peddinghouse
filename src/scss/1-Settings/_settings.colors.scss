@@ -12,6 +12,8 @@ $_color-grey-500: #4c5e69 !default;
 
 $_color-yellow-300: #ffe500 !default;
 
+$_color-white-300: #ffffff !default;
+
 $palettes: (
         'primary': (
                 base: $_color-primary-300,
@@ -26,11 +28,14 @@ $palettes: (
         'color-grey': (
                 200: $_color-grey-200,
                 base: $_color-grey-300,
-                400: $_color-grey-400,
+                400: $_color-grey-400, 
                 500: $_color-grey-500,
         ),
         'color-yellow': (
                 base: $_color-yellow-300,
+        ),
+        'color-white': (
+                base: $_color-white-300,
         ),
 );
 

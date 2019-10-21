@@ -1,0 +1,13 @@
+.c-link {
+    display: inline-block; 
+    color: #fff;
+    @include font(xs-md, 16, 400);
+    letter-spacing: normal; 
+    @media (min-width: 768px) {
+      @include font(xsm-md, 16, 400);
+    }
+}
+
+.c-link--primary {
+
+}

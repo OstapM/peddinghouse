@@ -1,6 +1,6 @@
 /* plugins */
-var axe = require('gulp-axe-webdriver'),
-    browsersync = require('browser-sync'),
+var browsersync = require('browser-sync'),
+    // axe = require('gulp-axe-webdriver'),
     cache = require('gulp-cache'),
     changed = require('gulp-changed'),
     cheerio = require('gulp-cheerio'),
@@ -128,14 +128,14 @@ gulp.task('watch', function (testCB) {
 gulp.task('build-css-js', ['sass', 'scripts' ]);
 
 /* accessibility task */
-gulp.task('axe', function (done) {
-    var options = {
-        saveOutputIn: 'a11yResult.json',
-        browser: 'phantomjs',
-        urls: ['*.html']
-    };
-    return axe(options, done);
-});
+// gulp.task('axe', function (done) {
+//     var options = {
+//         saveOutputIn: 'a11yResult.json',
+//         browser: 'phantomjs',
+//         urls: ['*.html']
+//     };
+//     return axe(options, done);
+// });
 
 // Default Task
 gulp.task('default', ['watch']);
