@@ -1,0 +1,26 @@
+.c-robots {
+    text-align: center;
+    position: relative;
+}
+
+.c-robots__title {
+    padding: 0 10px 20px;
+    margin-bottom: 25px;
+    position: relative;
+    &:after {
+        content: "";
+        position: absolute;
+        bottom: 0;
+        left: 50%;
+        transform: translateX(-50%);
+        width: 100%;
+        max-width: 345px;
+        height: 1px;
+        background-color: palette(primary);
+    }
+}
+
+.c-robots__slider {
+    margin-top: 50px;
+    position: relative;
+}

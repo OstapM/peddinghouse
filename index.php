@@ -437,6 +437,109 @@
 			</div>
 		</section>
 
+		<section class="s-robots">
+			<div class="container">
+				<div class="row justify-content-end">
+					<div class="col-12 col-lg-6">
+						<div class="c-robots">
+							<h2 class="c-robots__title">
+								Robots Are the Future of the Structural Steel Fabrication Industry
+							</h2>
+							<p class="c-robots__text">
+								As molor reperchil is quibus dolore il estis eni berumquas ipsunt molum inusapient la es sit. Met fugiam que.Igniet lacil iur reiciis doluptasi tendicium eum quides quanes adi moditiunt eum quat. As bus dolore il ipsunt molum inusapient la es sit.As molor reperchil is quibus dolore il estis eni berumquas ipsunt molum inusapient la es sit.
+							</p>
+							<div class="c-robots__slider c-slider">
+
+							<div class="swiper-container">
+								<div class="swiper-wrapper">
+									<div class="swiper-slide">
+										<div class="c-robots-slider__slide">
+											<div class="c-robots-slider__img">
+												<img src="img/robots1.png" alt="">
+												<a href="#" class="c-robots-slider__icon-block">
+													<img src="img/icons/round-plus.svg" alt="">
+													View Machines
+												</a>
+											</div>
+											<div class="c-robots-slider__text">
+												Robotic Thermal Cutting
+											</div>
+										</div>
+									</div>
+									<div class="swiper-slide">
+										<div class="c-robots-slider__slide">
+											<div class="c-robots-slider__img">
+												<img src="img/robots2.png" alt="">
+											</div>
+											<div class="c-robots-slider__text">
+												Robotic Welding
+											</div>
+										</div>
+									</div>
+									<div class="swiper-slide">
+										<div class="c-robots-slider__slide">
+											<div class="c-robots-slider__img">
+												<img src="img/robots1.png" alt="">
+												<a href="#" class="c-robots-slider__icon-block">
+													<img src="img/icons/round-plus.svg" alt="">
+													View Machines
+												</a>
+											</div>
+											<div class="c-robots-slider__text">
+												Robotic Thermal Cutting
+											</div>
+										</div>
+									</div>
+									<div class="swiper-slide">
+										<div class="c-robots-slider__slide">
+											<div class="c-robots-slider__img">
+												<img src="img/robots2.png" alt="">
+											</div>
+											<div class="c-robots-slider__text">
+												Robotic Welding
+											</div>
+										</div>
+									</div>
+									<div class="swiper-slide">
+										<div class="c-robots-slider__slide">
+											<div class="c-robots-slider__img">
+												<img src="img/robots1.png" alt="">
+												<a href="#" class="c-robots-slider__icon-block">
+													<img src="img/icons/round-plus.svg" alt="">
+													View Machines
+												</a>
+											</div>
+											<div class="c-robots-slider__text">
+												Robotic Thermal Cutting
+											</div>
+										</div>
+									</div>
+									<div class="swiper-slide">
+										<div class="c-robots-slider__slide">
+											<div class="c-robots-slider__img">
+												<img src="img/robots2.png" alt="">
+											</div>
+											<div class="c-robots-slider__text">
+												Robotic Welding
+											</div>
+										</div>
+									</div>
+								</div>
+								
+								<!-- Add Pagination -->
+    							<div class="swiper-pagination"></div>
+								<!-- Add Arrows -->
+								<div class="swiper-button-next"></div>
+								<div class="swiper-button-prev"></div>
+							</div>
+
+							</div>
+						</div>
+					</div>
+				</div>
+			</div>
+		</section>
+
 		<section class="s-map">
 			<div class="container">
 				<div class="row">
@@ -474,33 +577,62 @@
 		</section>
 
 		<section class="s-news">
-			<div class="container">
-				<div class="row">
-					<div class="col-12">
-						<div class="c-news-card">
-							<div class="row">
-								<div class="col-12 col-md-6 col-xl-5 order-1 order-md-2">
-									<div class="c-news-card__content">
-										<div class="c-news-card__header">
-											<p class="c-news-card__header-text">New Video Release</p>
-										</div>
-										<div class="c-news-card__body">
-											<h3 class="c-news-card__title">Clean Production with the PeddiBlast at Acier Select</h3>
-											<p class="c-news-card__text">As molor reperchil is quibus dolore il estis eni berumquas ipsunt molum inusapient la es sit. Met fugiam que.Igniet lacil iur reiciis doluptasi tendicium eum quides quanes adi moditiunt eum quat. As bus dolore il ipsunt molum inusapient la es sit, te si voluptatur ipsaudis ipsa vit.</p>
-											<a href="#" class="c-button c-button--primary">
-												<span class="c-button--text">View All Videos</span>
-											</a>
-										</div>
-									</div>
+			<div class="c-news-card">
+				<div class="container">
+					<div class="row">
+						<div class="col-12 col-md-6 col-xl-5 order-1 order-md-2">
+							<div class="c-news-card__content">
+								<div class="c-news-card__header">
+									<p class="c-news-card__header-text">New Video Release</p>
 								</div>
-								<div class="col-12 col-md-6 col-xl-7 order-2 order-md-1">
-									<div class="c-news-card__img">
-										<img src="img/news-video.png" alt="">
-									</div>
-									<a href="#" class="c-button c-button--primary d-md-none">
+								<div class="c-news-card__body">
+									<h3 class="c-news-card__title">Clean Production with the PeddiBlast at Acier Select</h3>
+									<p class="c-news-card__text">As molor reperchil is quibus dolore il estis eni berumquas ipsunt molum inusapient la es sit. Met fugiam que.Igniet lacil iur reiciis doluptasi tendicium eum quides quanes adi moditiunt eum quat. As bus dolore il ipsunt molum inusapient la es sit, te si voluptatur ipsaudis ipsa vit.</p>
+									<a href="#" class="c-button c-button--primary">
 										<span class="c-button--text">View All Videos</span>
 									</a>
 								</div>
+							</div>
+						</div>
+						<div class="col-12 col-md-6 col-xl-7 order-2 order-md-1">
+							<div class="c-news-card__wrap">
+								<div class="c-news-card__img">
+									<img src="img/news-video.png" alt="">
+								</div>
+								<a href="#" class="c-button c-button--primary d-md-none">
+									<span class="c-button--text">View All Videos</span>
+								</a>
+							</div>
+						</div>
+					</div>
+				</div>
+			</div>
+			<div class="c-news-card">
+				<div class="container">
+					<div class="row">
+						<div class="col-12 col-md-6 col-xl-5 order-1 order-md-2">
+							<div class="c-news-card__content">
+								<div class="c-news-card__header">
+									<p class="c-news-card__header-text">Latest News</p>
+								</div>
+								<div class="c-news-card__body">
+									<h3 class="c-news-card__title">You Are Invited to the Peddinghaus NASCC Customer Appreciation Event!</h3>
+									<p class="c-news-card__text">As molor reperchil is quibus dolore il estis eni berumquas ipsunt molum inusapient la es sit. Met fugiam que.Igniet lacil iur reiciis doluptasi tendicium eum quides quanes adi moditiunt eum quat. As bus dolore il ipsunt molum inusapient la es sit, te si voluptatur ipsaudis ipsa vit.</p>
+									<a href="#" class="c-button c-button--primary">
+										<span class="c-button--text">Read More</span>
+									</a>
+								</div>
+							</div>
+						</div>
+						<div class="col-12 col-md-6 col-xl-7 order-2 order-md-1">
+							<div class="c-news-card__wrap">
+								<div class="c-news-card__img">
+									<img src="img/news-img.png" alt="">
+								</div>
+								<a href="#" class="c-button c-button--primary d-md-none">
+									<span class="c-button--text">View All Videos</span>
+								</a>
+							</div>
 						</div>
 					</div>
 				</div>

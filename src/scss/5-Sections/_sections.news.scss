@@ -1,0 +1,8 @@
+.s-news {
+    @media (min-width: 768px) {
+        background-image: url("../../img/news-bg.png");
+        background-size: cover;
+        background-position: center center;
+        overflow: hidden;
+    }
+}
