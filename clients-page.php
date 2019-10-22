@@ -126,6 +126,35 @@
 				</div>
 			</div>
 		</section> 
+		<section class="o-banner">
+			<div class="o-banner__wrapper c-banner__partnership">
+				<div class="container">
+					<div class="row justify-content-center">
+						<div class="col-xl-10">
+							<div class="o-banner__content"> 
+								<div class="o-banner__text">
+									<h2 class="s-category__title">Start Your Most Profitable Partnership Today!</h2>
+								</div>
+								<div class="o-banner__btn-wrap">
+									<a href="#" class="c-button c-button--primary">
+										<span class="c-button--text">Request Demo</span>
+									</a>
+									<a href="#" class="c-button c-button--primary">
+										<span class="c-button--text">Request Quote</span>
+									</a>
+									<a href="#" class="c-button c-button--primary">
+										<span class="c-button--text">Request Visit</span>
+									</a>
+									<a href="#" class="c-button c-button--primary">
+										<span class="c-button--text">Request Call</span>
+									</a>
+								</div>
+							</div>
+						</div>
+					</div>
+				</div>
+			</div>
+		</section>
 	</main>
 </div> 
 
