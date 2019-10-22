@@ -1,6 +1,6 @@
 .c-map {
     @media (min-width: 768px) {
-        padding: 45px 132px;
+        padding: 45px 60px;
         width: 100%;
         max-width: 764px;
         background-color: rgba(77, 76, 77, 0.8);
@@ -11,6 +11,7 @@
 .c-map__title-block {
     position: relative;
     padding-bottom: 16px;
+    text-align: center;
     &:after {
         content: "";
         position: absolute;
@@ -64,6 +65,7 @@
     @media (min-width: 768px) {
         display: flex;
         justify-content: space-between;
+        padding: 0 60px;
     }
 }
 

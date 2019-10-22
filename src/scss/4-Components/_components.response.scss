@@ -1,0 +1,37 @@
+.c-response__title {
+    text-align: center;
+    letter-spacing: 1.6px;
+    margin-bottom: 24px;
+    @media (min-width: 768px) {
+        letter-spacing: 1.35px;
+        margin-bottom: 10px;
+    }
+}
+
+.c-response__text {
+    text-align: center;
+    color: palette(color-grey);
+    @include font(sm-md, 25, 300);
+    letter-spacing: 0.9px;
+    margin-bottom: 18px;
+    @media (min-width: 768px) {
+        @include font(md, 25, 300);
+        letter-spacing: 1px;
+        margin-bottom: 30px;
+    }
+}
+
+.c-response__footer {
+    text-align: center;
+    margin-top: 30px;
+    @media (max-width: 767px) {
+        @include font(exl-md, 34, 300);
+    }
+    @media (min-width: 768px) {
+        margin-top: 45px;
+    }
+    span {
+        color: #f47821;
+    }
+}
+

@@ -1,6 +1,6 @@
 .c-banner-aside {
     position: absolute;
-    display: flex;
+    display: none;
     align-items: center;
     height: 100%;
     top: 0;
@@ -10,6 +10,9 @@
     z-index: 2;
     &.open-tab {
         transform: translateX(-853px);
+    }
+    @media (min-width: 992px) {
+        display: flex;
     }
 }
 

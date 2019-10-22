@@ -3,11 +3,15 @@
     height: 100%;
     margin-left: auto;
     margin-right: auto;
+    padding-bottom: 50px!important;
     position: relative;
     overflow: hidden;
     list-style: none;
     padding: 0;
     z-index: 1;
+    @media (min-width: 768px) {
+        padding-bottom: 80px!important;
+    }
 }
 
 .swiper-wrapper {
@@ -29,4 +33,68 @@
     height: 100%;
     position: relative;
     transition-property: transform;
+    box-sizing: border-box;
 }
+
+//pagination
+
+.swiper-pagination {
+    position: absolute;
+    bottom: 0;
+    left: 50%;
+    transform: translateX(-50%);
+    width: 100%;
+    height: 10px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.swiper-pagination-bullet {
+    width: 36px;
+    height: 2px;
+    background-color: #fff;
+    margin: 0 5px;
+}
+
+.swiper-pagination-bullet.swiper-pagination-bullet-active {
+    background-color: palette(primary);
+}
+//pagination end
+
+//navigation
+.swiper-button-prev,
+.swiper-button-next {
+    position: absolute;
+    bottom: 10px;
+    display: inline-block;
+    transition: all ease 0.3s;
+    cursor: pointer;
+    svg {
+        display: inline-block;
+        margin: 0 15px;
+        width: 29px;
+        height: 13px;
+    }
+    &:hover,
+    &:active {
+        color: palette(primary);
+        svg {
+            path {
+                fill: palette(primary);
+            }
+        }
+    }
+}
+
+.swiper-button-prev {
+    left: 0;
+}
+
+.swiper-button-next {
+    right: 0;
+    svg {
+        transform: rotate(180deg);
+    }
+}
+//navigation end

@@ -95,15 +95,14 @@
 							<div class="c-aside-tab__wrapper">
 								<div class="c-aside-tab__header">
 									<a href="#" class="c-aside-tab__close">
-										<span>
-											<img src="img/icons/close-button.svg" alt="">
+										<span class="c-aside__close-icon">
 										</span>
 										close
 									</a>
 									<h2 class="c-aside-tab__title">Get Access to the Most Powerful Company in the Steel Industry</h2>
 								</div>
 								<div class="c-aside-tab__body">
-								<div class="c-aside-tab__list">
+									<div class="c-aside-tab__list">
 										<div class="c-aside-tab__item">
 											<h5>Sales Expert</h5>
 											<img src="img/tab.png" alt="">
@@ -111,7 +110,7 @@
 											<a href="#" class="c-aside-tab__link">General Contact Info</a>
 											<a href="#" class="c-aside-tab__link">Global Sales</a>
 											<a href="#" class="c-button c-button--primary">
-												<span>Contact Sales</span>
+												<span class="c-button--text">Contact Sales</span>
 											</a>
 										</div>
 										<div class="c-aside-tab__item">
@@ -121,7 +120,7 @@
 											<a href="#" class="c-aside-tab__link">General Contact Info</a>
 											<a href="#" class="c-aside-tab__link">Global Sales</a>
 											<a href="#" class="c-button c-button--primary">
-												<span>Contact Support</span>
+												<span class="c-button--text">Contact Support</span>
 											</a>
 										</div>
 										<div class="c-aside-tab__item">
@@ -131,7 +130,7 @@
 											<a href="#" class="c-aside-tab__link">General Contact Info</a>
 											<a href="#" class="c-aside-tab__link">Global Sales</a>
 											<a href="#" class="c-button c-button--primary">
-												<span>Contact Parts</span>
+												<span class="c-button--text">Contact Parts</span>
 											</a>
 										</div>
 									</div>
@@ -147,15 +146,14 @@
 							<div class="c-aside-tab__wrapper">
 								<div class="c-aside-tab__header">
 									<a href="#" class="c-aside-tab__close">
-										<span>
-											<img src="img/icons/close-button.svg" alt="">
+										<span class="c-aside__close-icon">
 										</span>
 										close
 									</a>
 									<h2 class="c-aside-tab__title">Get Access to the Most Powerful Company in the Steel Industry</h2>
 								</div>
 								<div class="c-aside-tab__body">
-								<div class="c-aside-tab__list">
+									<div class="c-aside-tab__list">
 										<div class="c-aside-tab__item">
 											<h5>Sales Expert</h5>
 											<img src="img/tab.png" alt="">
@@ -163,7 +161,7 @@
 											<a href="#" class="c-aside-tab__link">General Contact Info</a>
 											<a href="#" class="c-aside-tab__link">Global Sales</a>
 											<a href="#" class="c-button c-button--primary">
-												<span>Contact Sales</span>
+												<span class="c-button--text">Contact Sales</span>
 											</a>
 										</div>
 										<div class="c-aside-tab__item">
@@ -173,7 +171,7 @@
 											<a href="#" class="c-aside-tab__link">General Contact Info</a>
 											<a href="#" class="c-aside-tab__link">Global Sales</a>
 											<a href="#" class="c-button c-button--primary">
-												<span>Contact Support</span>
+												<span class="c-button--text">Contact Support</span>
 											</a>
 										</div>
 										<div class="c-aside-tab__item">
@@ -183,7 +181,7 @@
 											<a href="#" class="c-aside-tab__link">General Contact Info</a>
 											<a href="#" class="c-aside-tab__link">Global Sales</a>
 											<a href="#" class="c-button c-button--primary">
-												<span>Contact Parts</span>
+												<span class="c-button--text">Contact Parts</span>
 											</a>
 										</div>
 									</div>
@@ -450,89 +448,195 @@
 							</p>
 							<div class="c-robots__slider c-slider">
 
-							<div class="swiper-container">
-								<div class="swiper-wrapper">
-									<div class="swiper-slide">
-										<div class="c-robots-slider__slide">
-											<div class="c-robots-slider__img">
-												<img src="img/robots1.png" alt="">
-												<a href="#" class="c-robots-slider__icon-block">
-													<img src="img/icons/round-plus.svg" alt="">
-													View Machines
-												</a>
-											</div>
-											<div class="c-robots-slider__text">
-												Robotic Thermal Cutting
-											</div>
+								<div class="swiper-container">
+									<div class="swiper-wrapper">
+										<div class="swiper-slide">
+											<a href="#" class="c-robots-slider__slide">
+												<div class="c-robots-slider__img">
+													<img src="img/robots1.png" alt="">
+													<div class="c-robots-slider__icon-block">
+														<img src="img/icons/round-plus.svg" alt="">
+														View Machines
+													</div>
+												</div>
+												<div class="c-robots-slider__text">
+													Robotic Thermal Cutting
+												</div>
+											</a>
+										</div>
+										<div class="swiper-slide">
+											<a href="#" class="c-robots-slider__slide">
+												<div class="c-robots-slider__img">
+													<img src="img/robots2.png" alt="">
+												</div>
+												<div class="c-robots-slider__text">
+													Robotic Welding
+												</div>
+											</a>
+										</div>
+										<div class="swiper-slide">
+											<a href="#" class="c-robots-slider__slide">
+												<div class="c-robots-slider__img">
+													<img src="img/robots1.png" alt="">
+													<div class="c-robots-slider__icon-block">
+														<img src="img/icons/round-plus.svg" alt="">
+														View Machines
+													</div>
+												</div>
+												<div class="c-robots-slider__text">
+													Robotic Thermal Cutting
+												</div>
+											</a>
+										</div>
+										<div class="swiper-slide">
+											<a href="#" class="c-robots-slider__slide">
+												<div class="c-robots-slider__img">
+													<img src="img/robots2.png" alt="">
+												</div>
+												<div class="c-robots-slider__text">
+													Robotic Welding
+												</div>
+											</a>
 										</div>
 									</div>
-									<div class="swiper-slide">
-										<div class="c-robots-slider__slide">
-											<div class="c-robots-slider__img">
-												<img src="img/robots2.png" alt="">
-											</div>
-											<div class="c-robots-slider__text">
-												Robotic Welding
-											</div>
-										</div>
+									
+									<!-- Add Pagination -->
+									<div class="swiper-pagination"></div>
+									<!-- Add Arrows -->
+									<div class="swiper-button-next">
+										<span>next</span>
+										<svg xmlns="http://www.w3.org/2000/svg" width="29" height="13" viewBox="0 0 29 13"><g><g><path fill="#fff" d="M.772 6.986L0 6.214l.772-.773 5.27-5.27.773.773L2.09 5.667h26.95V6.76H2.09l4.724 4.723-.773.773z"/></g></g></svg>				
 									</div>
-									<div class="swiper-slide">
-										<div class="c-robots-slider__slide">
-											<div class="c-robots-slider__img">
-												<img src="img/robots1.png" alt="">
-												<a href="#" class="c-robots-slider__icon-block">
-													<img src="img/icons/round-plus.svg" alt="">
-													View Machines
-												</a>
-											</div>
-											<div class="c-robots-slider__text">
-												Robotic Thermal Cutting
-											</div>
-										</div>
-									</div>
-									<div class="swiper-slide">
-										<div class="c-robots-slider__slide">
-											<div class="c-robots-slider__img">
-												<img src="img/robots2.png" alt="">
-											</div>
-											<div class="c-robots-slider__text">
-												Robotic Welding
-											</div>
-										</div>
-									</div>
-									<div class="swiper-slide">
-										<div class="c-robots-slider__slide">
-											<div class="c-robots-slider__img">
-												<img src="img/robots1.png" alt="">
-												<a href="#" class="c-robots-slider__icon-block">
-													<img src="img/icons/round-plus.svg" alt="">
-													View Machines
-												</a>
-											</div>
-											<div class="c-robots-slider__text">
-												Robotic Thermal Cutting
-											</div>
-										</div>
-									</div>
-									<div class="swiper-slide">
-										<div class="c-robots-slider__slide">
-											<div class="c-robots-slider__img">
-												<img src="img/robots2.png" alt="">
-											</div>
-											<div class="c-robots-slider__text">
-												Robotic Welding
-											</div>
-										</div>
+									<div class="swiper-button-prev">
+									<svg xmlns="http://www.w3.org/2000/svg" width="29" height="13" viewBox="0 0 29 13"><g><g><path fill="#fff" d="M.772 6.986L0 6.214l.772-.773 5.27-5.27.773.773L2.09 5.667h26.95V6.76H2.09l4.724 4.723-.773.773z"/></g></g></svg>
+										<span>previous</span>
 									</div>
 								</div>
-								
-								<!-- Add Pagination -->
-    							<div class="swiper-pagination"></div>
-								<!-- Add Arrows -->
-								<div class="swiper-button-next"></div>
-								<div class="swiper-button-prev"></div>
-							</div>
 
+							</div>
+						</div>
+					</div>
+				</div>
+			</div>
+		</section>
+
+		<section class="s-response">
+			<div class="container">
+				<div class="row">
+					<div class="col-12">
+						<div class="c-response">
+							<h2 class="c-response__title">
+								We Empower The World’s Most Successful Fabricator
+							</h2>
+							<p class="c-response__text">
+								Don’t take our word for it - hear their stories
+							</p>
+							<div class="c-response__slider c-slider">
+
+								<div class="swiper-container">
+									<div class="swiper-wrapper">
+										<div class="swiper-slide">
+											<div href="#" class="c-response-slider__slide">
+												<div class="c-response-slider__video">
+													<img src="img/video1.png" alt="">
+												</div>
+												<div class="c-response-slider__text">
+													<p class="c-response-slider__quotation">
+														If we buy a piece of equipment from Peddinghaus, we know they’re going to stand behind it.
+													</p>	
+													<div class="c-response-slider__autor">
+														<p class="c-response-slider__autor-name">Steve Capone</p>
+														<p class="c-response-slider__autor-position">
+															<span>President</span> | Capone Iron Corporation
+														</p>
+													</div>
+													<a href="#" class="c-button c-button--primary">
+														<span class="c-button--text">View All Videos</span>
+													</a>
+												</div>
+											</div>
+										</div>
+										<div class="swiper-slide">
+											<div href="#" class="c-response-slider__slide">
+												<div class="c-response-slider__video">
+													<img src="img/video2.png" alt="">
+												</div>
+												<div class="c-response-slider__text">
+													<p class="c-response-slider__quotation">
+														How we run our machines gives us better throughput because each process goes onto the next.
+													</p>		
+													<div class="c-response-slider__autor">
+														<p class="c-response-slider__autor-name">Mark White</p>
+														<p class="c-response-slider__autor-position">
+															<span>Production Director</span> | Caunton Engineering
+														</p>
+													</div>
+													<a href="#" class="c-button c-button--primary">
+														<span class="c-button--text">View All Videos</span>
+													</a>
+												</div>
+											</div>
+										</div>
+										<div class="swiper-slide">
+											<div href="#" class="c-response-slider__slide">
+												<div class="c-response-slider__video">
+													<img src="img/video1.png" alt="">
+												</div>
+												<div class="c-response-slider__text">
+													<p class="c-response-slider__quotation">
+														If we buy a piece of equipment from Peddinghaus, we know they’re going to stand behind it.
+													</p>	
+													<div class="c-response-slider__autor">
+														<p class="c-response-slider__autor-name">Steve Capone</p>
+														<p class="c-response-slider__autor-position">
+															<span>President</span> | Capone Iron Corporation
+														</p>
+													</div>
+													<a href="#" class="c-button c-button--primary">
+														<span class="c-button--text">View All Videos</span>
+													</a>
+												</div>
+											</div>
+										</div>
+										<div class="swiper-slide">
+											<div href="#" class="c-response-slider__slide">
+												<div class="c-response-slider__video">
+													<img src="img/video2.png" alt="">
+												</div>
+												<div class="c-response-slider__text">
+													<p class="c-response-slider__quotation">
+														How we run our machines gives us better throughput because each process goes onto the next.
+													</p>		
+													<div class="c-response-slider__autor">
+														<p class="c-response-slider__autor-name">Mark White</p>
+														<p class="c-response-slider__autor-position">
+															<span>Production Director</span> | Caunton Engineering
+														</p>
+													</div>
+													<a href="#" class="c-button c-button--primary">
+														<span class="c-button--text">View All Videos</span>
+													</a>
+												</div>
+											</div>
+										</div>
+									</div>
+									
+									<!-- Add Pagination -->
+									<div class="swiper-pagination"></div>
+									<!-- Add Arrows -->
+									<div class="swiper-button-next">
+										<span>next</span>
+										<svg xmlns="http://www.w3.org/2000/svg" width="29" height="13" viewBox="0 0 29 13"><g><g><path fill="#fff" d="M.772 6.986L0 6.214l.772-.773 5.27-5.27.773.773L2.09 5.667h26.95V6.76H2.09l4.724 4.723-.773.773z"/></g></g></svg>				
+									</div>
+									<div class="swiper-button-prev">
+									<svg xmlns="http://www.w3.org/2000/svg" width="29" height="13" viewBox="0 0 29 13"><g><g><path fill="#fff" d="M.772 6.986L0 6.214l.772-.773 5.27-5.27.773.773L2.09 5.667h26.95V6.76H2.09l4.724 4.723-.773.773z"/></g></g></svg>
+										<span>previous</span>
+									</div>
+								</div>
+
+							</div>
+							<div class="c-response__footer">
+								<h2 class="c-response__footer-title">Trusted by Over 3,000<span>+</span> Customers</h2>
 							</div>
 						</div>
 					</div>
@@ -632,6 +736,35 @@
 								<a href="#" class="c-button c-button--primary d-md-none">
 									<span class="c-button--text">View All Videos</span>
 								</a>
+							</div>
+						</div>
+					</div>
+				</div>
+			</div>
+		</section>
+		<section class="o-banner">
+			<div class="o-banner__wrapper c-banner__partnership">
+				<div class="container">
+					<div class="row justify-content-center">
+						<div class="col-xl-10">
+							<div class="o-banner__content"> 
+								<div class="o-banner__text">
+									<h2 class="s-category__title">Start Your Most Profitable Partnership Today!</h2>
+								</div>
+								<div class="o-banner__btn-wrap">
+									<a href="#" class="c-button c-button--primary">
+										<span class="c-button--text">Request Demo</span>
+									</a>
+									<a href="#" class="c-button c-button--primary">
+										<span class="c-button--text">Request Quote</span>
+									</a>
+									<a href="#" class="c-button c-button--primary">
+										<span class="c-button--text">Request Visit</span>
+									</a>
+									<a href="#" class="c-button c-button--primary">
+										<span class="c-button--text">Request Call</span>
+									</a>
+								</div>
 							</div>
 						</div>
 					</div>

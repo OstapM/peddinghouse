@@ -22,5 +22,40 @@
 
 .c-robots__slider {
     margin-top: 50px;
+    position: relative;   
+    @media (min-width: 768px) {
+        margin-bottom: 8px;
+    }
+    .swiper-container {
+        max-height: 290px;
+    }
+    .swiper-button-prev,
+    .swiper-button-next {
+        @media (max-width: 767px) {
+            display: none;
+        }
+    }
+}
+
+.c-robots-slider__img {
     position: relative;
+}
+
+
+.c-robots-slider__icon-block {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    @include font(x-md, 16, 400);
+    color: #fff;
+    img {
+        margin: 0 auto 14px;
+    }
+}
+
+.c-robots-slider__text {
+    margin-top: 8px;
+    @include font(x-md, 22, 400);
+    color: palette(color-grey);
 }
