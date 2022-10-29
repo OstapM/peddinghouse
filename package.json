@@ -9,7 +9,7 @@
   "description": "Another front-end starter kit",
   "devDependencies": {
     "bootstrap": "^4.3.1",
-    "browser-sync": "2.23.5",
+    "browser-sync": "2.27.10",
     "del": "3.0.0",
     "gulp": "^3.9.1",
     "gulp-cache": "1.0.2",
